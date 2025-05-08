@@ -1,0 +1,21 @@
+{
+  "name": "whitelist-backend",
+  "version": "1.0.0",
+  "description": "Backend for whitelist application",
+  "main": "api/applications.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mysql2": "^2.3.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vercel": "^25.0.0"
+  },
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
