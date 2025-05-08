@@ -16,6 +16,6 @@
     "dev": "vercel dev"
   },
   "engines": {
-    "node": "16.x"
+    "node": "18"
   }
 }
